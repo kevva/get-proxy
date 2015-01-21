@@ -1,0 +1,28 @@
+{
+  "name": "get-proxy",
+  "version": "1.0.0",
+  "description": "Get configured proxy",
+  "license": "MIT",
+  "repository": "kevva/get-proxy",
+  "author": {
+    "name": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "https://github.com/kevva"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [],
+  "dependencies": {
+    "rc": "^0.5.5"
+  },
+  "devDependencies": {
+    "ava": "^0.0.4"
+  }
+}
