@@ -2,12 +2,6 @@
 
 var conf = require('rc')('npm');
 
-/**
- * Get configured proxy
- *
- * @api public
- */
-
 module.exports = function () {
 	return process.env.HTTPS_PROXY ||
 		process.env.https_proxy ||
