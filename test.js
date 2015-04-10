@@ -1,7 +1,7 @@
 'use strict';
 
-var getProxy = require('./');
 var test = require('ava');
+var getProxy = require('./');
 
 test('get configured proxy', function (t) {
 	var proxy = process.env.HTTP_PROXY;
