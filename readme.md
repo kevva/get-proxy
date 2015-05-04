@@ -1,4 +1,4 @@
-# get-proxy [![Build Status](http://img.shields.io/travis/kevva/get-proxy/master.svg?style=flat)](http://travis-ci.org/kevva/get-proxy)
+# get-proxy [![Build Status](https://travis-ci.org/kevva/get-proxy.svg?branch=master)](http://travis-ci.org/kevva/get-proxy)
 
 > Get configured proxy
 
@@ -16,7 +16,7 @@ $ npm install --save get-proxy
 var getProxy = require('get-proxy');
 
 getProxy();
-//=> http://192.168.0.1:8080
+//=> 'http://192.168.0.1:8080'
 ```
 
 
