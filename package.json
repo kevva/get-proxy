@@ -1,6 +1,6 @@
 {
   "name": "get-proxy",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Get configured proxy",
   "license": "MIT",
   "repository": "kevva/get-proxy",
