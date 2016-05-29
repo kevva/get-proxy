@@ -1,7 +1,7 @@
 'use strict';
-var conf = require('rc')('npm');
+const conf = require('rc')('npm');
 
-module.exports = function () {
+module.exports = () => {
 	return process.env.HTTPS_PROXY ||
 		process.env.https_proxy ||
 		process.env.HTTP_PROXY ||

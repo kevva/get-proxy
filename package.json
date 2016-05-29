@@ -10,7 +10,7 @@
     "url": "https://github.com/kevva"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
     "test": "xo && ava"
@@ -18,7 +18,11 @@
   "files": [
     "index.js"
   ],
-  "keywords": [],
+  "keywords": [
+    "env",
+    "get",
+    "proxy"
+  ],
   "dependencies": {
     "rc": "^1.1.2"
   },

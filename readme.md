@@ -13,7 +13,7 @@ $ npm install --save get-proxy
 ## Usage
 
 ```js
-var getProxy = require('get-proxy');
+const getProxy = require('get-proxy');
 
 getProxy();
 //=> 'http://192.168.0.1:8080'
