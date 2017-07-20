@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save get-proxy
+$ npm install get-proxy
 ```
 
 
